@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*------------------------------
+ページ共通で使うインナー
+------------------------------*/
+.common-inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*------------------------------
+ページヘッダー
+------------------------------*/
+.page-header {
+  background-color: #5A442A;
+}
+
+.page-header__inner {
+  padding: 24px 0;
+}
+
+.page-header__title {
+  color: #fff;
+  line-height: 1.0;
+}
+
+.page-header__title .large {
+  font-size: 3.2rem;
+}
+
+.page-header__title .small {
+  font-size: 2rem;
+}
+
+.page-header__main-visual img {
+  width: 100%;
+}
+
+/*------------------------------
+メインコンテンツ
+------------------------------*/
+.main-content {
+  padding: 50px 0;
+  background-color: #FAF5ED;
+}
+
+/* コンテンツのヘッダー */
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header__title {
+  line-height: 1;
+}
+
+.section-header__title .large {
+  font-size: 3.6rem;
+}
+
+.section-header__title .small {
+  font-size: 2.4rem;
+}
+
+/* 写真のリスト */
+.record-list {
+  margin-bottom: 50px;
+}
+
+.record-list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* 写真＋テキストのブロック */
+.photo-record {
+  display: flex;
+}
+
+.photo-record__image {
+  width: 480px;
+  margin-right: 20px;
+}
+
+.photo-record__text {
+  font-size: 2rem;
+}
+
+/* テキストリンク */
+.other-links {
+  line-height: 1.0;
+  text-align: center;
+}
+
+.other-links a {
+  color: #707070;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+.other-links a:hover {
+  border-bottom: none;
+}
+
+.other-links .large {
+  font-size: 3.6rem;
+}
+
+.other-links .small {
+  font-size: 2.4rem;
+}
+
+/*------------------------------
+ページフッター
+------------------------------*/
+.page-footer {
+  padding: 22px 0;
+  background-color: #5A442A;
+}
+
+.page-footer p {
+  font-size: 1.6rem;
+  line-height: 1.0;
+  text-align: center;
+  color: #fff;
+}
